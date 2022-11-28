@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- own css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  
+    <!-- bootsrap icon cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Sarojinee</title>
+  </head>
+  <body>
+    <!-- navigation start -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light navigation">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/profile.jpg" alt="profile"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home" id="hm" onclick="home()"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" id="ab" onclick="about()">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill" id="sk" onclick="skill()">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project" id="pj" onclick="project()">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" id="ct" onclick="contact()">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation end -->
+
+    <!-- home section -->
+    <section  id="home">
+      <div class="container home">
+        <h1>Sarojinee Das</h1>
+        <h2>I am a Student at CIME</h2>
+        <button class="btn-about" onclick="about()">About Me</button>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+      This is my about section which describes about me.
+          </p>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="image">
+                <img src="img/profile.jpg" alt="my-image" />
+              </div>
+            </div>
+            <div class="col-lg-8">
+              
+              <div class="information">
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li><strong>Name:</strong> Sarojinee Das</li>
+                      <li><strong>Nationality:</strong> Indian</li>
+                      <li><strong>Email:</strong>srsarojinee@gmail.com</li>
+                      <li>
+                        <strong>Linkedin:</strong
+                        >https://www.linkedin.com/in/sarojinee-das-218669203
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul>
+                      <li><strong>DOB:</strong> 27-05-1999</li>
+                      <li>
+                        <strong>Adress:</strong> Jagatsinghpur,Odisha ,India
+                      </li>
+                      <li><strong>Phone no:</strong> 9337560916</li>
+                      <li><strong>Github:</strong>srsarojinee@gmail.com</li>
+                    </ul>
+                  </div>
+                </div>
+                <p>
+                  I want to be part of an organization where continuous learning and
+                  growth is assured and fulfilling the expectation from my
+                  knowledge and skills. Aspiring to have a good career path with
+                  my interest and ability to learn and deliver the results.
+                </p>
+              </div>
+            </div>
+          </div>
+        
+          <div id="education" class="education">
+        <div class="container" >
+            <div class="section-title">
+                <h2>Education</h2>
+                <p>Here is my Educational details which describes my Qualification.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Master of Computer Application</h4>
+                    <h5>2020 - 2022</h5>
+                    <p><em>College of IT &amp; Management Education,Bhubaneswar</em></p>
+                    <p>9.57 SGPA</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Bachelor of Science(hons.-physics)</h4>
+                    <h5>2017 - 2020</h5>
+                    <p><em>S. V.M College (Autonomous), Jagatsinghpur</em></p>
+                    <p>8.51</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" >
+                    <h4>Intermidiate(Science)</h4>
+                    <h5>2015 - 2017</h5>
+                    <p><em>S. V. M JR College, Jagatsinghpur</em></p>
+                    <p>73.33%</p>
+                </div>
+                <div class="col-md-6" >
+                    <h4>Matriculation</h4>
+                    <h5>2013 - 2014</h5>
+                    <p><em>B. C. Vidyamandir, Redhua</em></p>
+                    <p>84.5%</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- skill section -->
+
+    <section class="skill" id="skill">
+      <div class="container">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>This section tells about my skills and which languages i know.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+       <div class="prog">
+        <p class="skills">HTML<span>100%</span></p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100"></div>
+      </div>
+       </div>
+       <div class="prog">
+        <p class="skills">CSS <span>80%</span></p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="80" aria-valuemax="100"></div>
+      </div>
+       </div>
+       <div class="prog">
+        <p class="skills">OOPS <span>70%</span></p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="70" aria-valuemax="100"></div>
+      </div>
+       </div>
+      </div>
+   
+    
+      <div class="col-lg-6">
+       <div class="prog">
+        <p class="skills">JAVA<span>70%</span></p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="70" aria-valuemax="100"></div>
+      </div>
+       </div>
+       <div class="prog">
+        <p class="skills">SQL <span>80%</span></p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="80" aria-valuemax="100"></div>
+      </div>
+       </div>
+       <div class="prog">
+        <p class="skills">JAVASCRIPT <span>50%</span></p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="50" aria-valuemax="100"></div>
+      </div>
+       </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+   <!-- skill end -->
+
+
+
+    <!-- project section -->
+
+<section id="project" class="project">
+  <div class="container">
+    <div class="section-title">
+      <h2>Project</h2>
+      <p>This section is my project section which describes what project i made.</p>
+    </div>
+    <div class="pj-content align-items-center">
+  
+      <div class="img"><img src="img/logo.png" alt="project"></div>
+      <div class="box align-items-center">
+     <p>This is a food delivery Website</p>
+     <button class="view-btn" data-toggle="modal" data-target="#exampleModalCenter">View More</button>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Foodie Moodie</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>This is a small static project i created for my practice.Here i created it using html,css,js and bootstrap. You can check this project on my github website.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- project end -->
+
+<!-- contact section -->
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p>This is my contact section you can contact me using this information. </p>
+    </div>
+    <div class="ct-content">
+      <div class="row mt-5">
+
+        <div class="col-lg-4">
+            <div class="info">
+                <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Location:</h4>
+                    <p>Rasulgarh, Bhubaneswar, Odisha</p>
+                </div>
+
+                <div class="email">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email:</h4>
+                    <p>srsarojinee@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    <h4>Call:</h4>
+                    <p>9337560916</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-lg-8 mt-5 mt-lg-0">
+        
+          <form action="/action_page.php" class="needs-validation align-items-center" novalidate>
+            <div class="row">
+              <div class="col-md-6">
+            <div class="form-group">
+              
+              <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+          </div>
+            <div class="col-md-6">
+            <div class="form-group">
+           
+              <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+          </div>
+          </div>
+            <div class="form-group">
+              
+              <input type="text" class="form-control" id="sub" placeholder="Enter Subject" name="sub" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+             
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+           <div class="text-center">
+            <button type="submit" class="submit">Submit</button>
+          </div>
+          </form>
+          
+          <script>
+          // Disable form submissions if there are invalid fields
+          (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+              // Get the forms we want to add validation styles to
+              var forms = document.getElementsByClassName('needs-validation');
+              // Loop over them and prevent submission
+              var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add('was-validated');
+                }, false);
+              });
+            }, false);
+          })();
+          </script>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- contact end -->
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+  <div class="container">
+      <div class="copyright">
+          &copy; Copyright <strong><span>Sarojinee</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+          Designed by <a href="index.html">Sarojinee</a>
+      </div>
+  </div>
+</footer>
+<!-- End  Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+   
+    <script>
+         $(document).ready(function() {
+            
+            $("#home").css('display', 'block');
+             
+            $('#about').css('display', 'none');
+
+            $('#education').css('display', 'none');
+            $('#skill').css('display', 'none');
+            $('#project').css('display', 'none');
+            $('#contact').css('display', 'none');
+           
+        });
+
+    function home() {
+            
+      $("#home").css('display', 'block');
+       
+      $('#about').css('display', 'none');
+
+      $('#education').css('display', 'none');
+      $('#skill').css('display', 'none');
+      $('#project').css('display', 'none');
+      $('#contact').css('display', 'none');
+     
+  }
+
+  function about() {
+      $("#home").css('display', 'none');
+       $("#hm").removeClass("active");
+      $('#about').css('display', 'block');
+       $("#ab").addClass("active");
+      $('#education').css('display', 'block');
+      $('#skill').css('display', 'none');
+      $('#sk').removeClass("active"); 
+      $('#project').css('display', 'none');
+      $('#pj').removeClass("active"); 
+      $('#contact').css('display', 'none');
+      $('#ct').removeClass("active"); 
+  }
+
+  
+
+  function skill() {
+      $("#home").css('display', 'none');
+      $("#hm").removeClass("active");
+      $('#about').css('display', 'none');
+      $('#ab').removeClass("active");   
+      $('#education').css('display', 'none');
+      $('#skill').css('display', 'block');
+      $("#sk").addClass("active");
+      $('#project').css('display', 'none');
+      $('#pj').removeClass("active"); 
+      $('#contact').css('display', 'none');
+      $('#ct').removeClass("active"); 
+  }
+
+  function project() {
+      $("#home").css('display', 'none');
+      $("#hm").removeClass("active");
+      $('#about').css('display', 'none');
+      $('#ab').removeClass("active"); 
+      $('#education').css('display', 'none');
+      $('#skill').css('display', 'none');
+      $('#sk').removeClass("active"); 
+      $('#project').css('display', 'block')
+      $("#pj").addClass("active");
+      $('#contact').css('display', 'none');
+      $('#ct').removeClass("active"); 
+  }
+
+  function contact() {
+      $("#home").css('display', 'none');
+      $("#hm").removeClass("active");
+      $('#about').css('display', 'none');
+      $('#ab').removeClass("active"); 
+      $('#education').css('display', 'none');
+      $('#skill').css('display', 'none');
+      $('#sk').removeClass("active"); 
+      $('#project').css('display', 'none');
+      $('#pj').removeClass("active"); 
+      $('#contact').css('display', 'block');
+      $("#ct").addClass("active");
+  }
+</script>
+  </body>
+</html>
